@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2.5</title>
+</head>
+<body>
+    
+    <script>
+        let base=parseInt(prompt("enter the Base Of Triangle"));
+        let height=parseInt(prompt("enter the Height Of Triangle"));
+        document.write(AreaOfTriangle(base,height));
+        function AreaOfTriangle(base,height){
+            if(base==0||height==0)
+            {
+                return 0;
+            }
+            return (0.5)*base*height;
+        }
+    </script>
+</body>
+</html>

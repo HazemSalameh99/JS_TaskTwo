@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2.1</title>
+</head>
+<body>
+    <button onclick="BirthdateMonth()" style="align-items: center;margin: 5rem 5rem;padding:2rem 2rem;background-color: aqua;">Know your birth month</button>
+</body>
+</html>
+
+<script>
+    function BirthdateMonth(){
+    let  birthdateMonth=parseInt(prompt("Insert Your Birth Date Month"));
+    switch (birthdateMonth) {
+        case 1: alert("January");
+        break;
+        case 2: alert("February");
+        break;
+        case 3: alert("March");
+        break;
+        case 4: alert("April");
+        break;
+        case 5: alert("May");
+        break;
+        case 6: alert("June");
+        break;
+        case 7: alert("July");
+        break;
+        case 8: alert("August");
+        break;
+        case 9: alert("September");
+        break;
+        case 10: alert("October");
+        break;
+        case 11: alert("November");
+        break;
+        case 12: alert("December");
+        break;
+        default:alert("This Month Not Exist");
+    }
+        
+    }
+</script>
